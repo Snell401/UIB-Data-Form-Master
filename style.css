@@ -1,0 +1,80 @@
+body {
+    margin: 0 auto;
+    background-color: black;
+    box-sizing: border-box;
+}
+.container   {
+    width: 90%;
+    position: relative;
+    left: 1%;
+    background-color: white;
+}
+
+h3 {
+    background-color: rgb(70, 67, 67);
+    padding: 10px;
+    color: white;
+}
+form {
+    width: 45%;
+    display: inline-block;
+    margin: 10px;
+}
+
+.formRight {
+    position: absolute;
+    top: 9.5%;
+    width: 50%;
+  
+}
+
+button {
+    background-color: rgb(15, 190, 15);
+    position: absolute;
+    top: 70%;
+    border: none;
+    color: white;
+    padding: 15px;
+    font-size: large;
+    border-radius: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea {
+    width: 98%;
+    padding: 5px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 200px ;
+}
+
+.selector {
+    font-weight: 500;
+    
+}
+
+legend {
+    color: blueviolet;
+    font-weight: 900;
+}
+
+select {
+    width: 100%;
+    background-color: rgba(184, 181, 181, 0.651);
+}
+
+input {
+    margin: 10px 0;
+}
+
+.radio2 {
+    margin-left: 10px;
+}
+
+input[type="checkbox"] {
+    margin-bottom: 0;
+}
